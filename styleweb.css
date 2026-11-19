@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+} 
+h1 {
+    text-align: center; /* atur posisi supaya tengah */
+    color: aliceblue; /* warna tulisan */
+    padding-top: 20px;
+}
+
+body > header {
+    background-color: rgb(21, 21, 150);
+}
+
+header > p{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 15px;
+}
+
+nav {
+    background-color: #681b86;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 15px;
+}
+
+li a {
+    color: white;
+}
+
+main {
+    display: flex;
+    gap: 50px;
+    margin: 30px;
+}
+
+#content {
+    flex: 3;
+    box-shadow: 5px 15px 9px rgba(0,0,0,0.20);
+    border-radius: 12px;
+}
+
+aside{
+    flex: 1;
+    box-shadow: 5px 15px 15px 9px rgba(0,0,0,0.20);
+    border-radius: 12px;
+    text-align: center;
+}
+
+aside header h2 {
+    color: darkcyan;
+    text-align: center;
+
+}
+
+#sejarah p {
+    padding: 15px;
+}
+
+#wisata p {
+    padding: 15px;
+}
+
+#geografis p {
+    padding: 15px;
+
+}
+
+table {
+    padding: 15px;
+}
+
+img {
+    margin-left: 20px;
+}
+
+#sejarah h3 {
+    margin-top: 20px;
+}h3 {
+    margin: 20px;
+}
+
